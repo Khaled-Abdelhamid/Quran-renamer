@@ -5,11 +5,7 @@ from glob import glob
 from tqdm import tqdm
 import click
 import os
-
-@click.command()
-@click.option('--count', default=1, help='Number of greetings.')
-@click.option('--name', prompt='Your name')
-              
+       
 arabic_names={1:"001-الفاتحة",
 2:"002-البقرة",
 3:"003-آل عمران",
